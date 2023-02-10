@@ -14,10 +14,10 @@ import (
 	"net/http/httptest"
 	"os"
 
+	"github.com/ShangRui-hash/graphql"
 	graphqlserver "github.com/graph-gophers/graphql-go"
 	"github.com/graph-gophers/graphql-go/example/starwars"
 	"github.com/graph-gophers/graphql-go/relay"
-	"github.com/Laisky/graphql"
 )
 
 func main() {

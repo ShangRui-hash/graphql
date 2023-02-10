@@ -3,7 +3,7 @@ package graphql_test
 import (
 	"testing"
 
-	"github.com/Laisky/graphql"
+	"github.com/ShangRui-hash/graphql"
 )
 
 func TestNewScalars(t *testing.T) {

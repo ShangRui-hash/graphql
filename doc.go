@@ -8,4 +8,4 @@
 // opportunities for improvement are discovered; it is not yet frozen.
 //
 // For now, see README for more details.
-package graphql // import "github.com/Laisky/graphql"
+package graphql // import "github.com/ShangRui-hash/graphql"
