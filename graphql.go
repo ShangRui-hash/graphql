@@ -100,6 +100,8 @@ func (c *Client) do(ctx context.Context, op operationType, v interface{}, variab
 		}
 
 		var buf bytes.Buffer
+		delete(variables, "cvss")
+		delete(variables, "maintainer_severity")
 		err := json.NewEncoder(&buf).Encode(variables)
 		if err != nil {
 			return err
